@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;	
+	background-image: url(b7.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size:cover;
+    /*background-position: center;*/
+    
+}
+
+
+
+.tb {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.0em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+.tb thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+         
+.tb th, .tb td { 
+    padding: 12px 15px;
+}
+        
+.tb tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tb tbody tr:nth-of-type(even) {
+ font-weight: bold;
+    color: #009879;
+}
+
+.tb tbody tr:last-of-type 
+{
+    border-bottom: 2px solid #dddddd;
+}
